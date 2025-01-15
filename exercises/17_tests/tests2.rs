@@ -15,9 +15,13 @@ mod tests {
     #[test]
     fn you_can_assert_eq() {
         // TODO: Test the function `power_of_2` with some values.
-        assert_eq!();
-        assert_eq!();
-        assert_eq!();
-        assert_eq!();
+        let thirtytwo = power_of_2(5);
+        let eight = power_of_2(3);
+        let one = power_of_2(0);
+        let sixteen = power_of_2(4);
+        assert_eq!(sixteen, 16);
+        assert_eq!(thirtytwo, 32);
+        assert_eq!(one, 1);
+        assert_eq!(eight, 8);
     }
 }
